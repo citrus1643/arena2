@@ -39,9 +39,17 @@ public class Main {
         int m = 32;
         while(n>=m){
             char c = (char) m;
-            System.out.println(c);
+            System.out.println("1"+c);
             m++;
         }
+        int v = 32;
+        int b = 1000;
+        do{
+            char c = (char) v;
+            System.out.println("2"+ c);
+            v++;
+
+        }while(b>=v);
         //3 задача
         String message = "Hello World";
         for (int i = 0; i < message.length(); i++) {
